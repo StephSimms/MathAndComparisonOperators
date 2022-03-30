@@ -89,6 +89,46 @@ namespace MathAndComparisonOperators
             //Console.ReadLine();
 
 
+            //Income Comparison Assignment
+
+            Console.WriteLine("Anonymous Income Comparison Program");
+            Console.WriteLine("Person 1");
+            Console.WriteLine("What is your hourly rate?: ");
+            int yourNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("What are your hours worked this week?: ");
+            int yourNumber1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Person 2");
+            Console.WriteLine("What is your hourly rate?: ");
+            int yourNumber2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("What are your hours worked this week?: ");
+            int yourNumber3 = Convert.ToInt32(Console.ReadLine());
+            
+            int product = yourNumber * yourNumber1 * 52;
+            Console.WriteLine("Annual Salary of Person 1 is: $ " + product);
+            
+            Console.WriteLine(product);
+            int product1 = yourNumber2 * yourNumber3 * 52;
+            Console.ReadLine();
+            Console.WriteLine("Annual Salary of Person 2 is: $ " + product1);
+            bool isSalary = product > product1;
+            Console.WriteLine("Does Person 1 make more than Person2 ?");
+            Console.WriteLine(isSalary);
+            Console.ReadLine();
+
+
+
+
+
+            // Console.WriteLine("What is your favorite number?");
+            //string yourNumberString = Console.ReadLine();
+            //int yourNumberInt = Convert.ToInt32(yourNumberString);
+            //Console.WriteLine("Let's multiply your favorite number by 50");
+            //int product = yourNumberInt * 50;
+            //Console.WriteLine(product);
+            //Console.ReadLine();
+
+
+            Console.ReadLine();
 
            
         }
