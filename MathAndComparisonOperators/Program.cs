@@ -189,22 +189,32 @@ namespace MathAndComparisonOperators
             //Console.ReadLine();
 
 
-            Console.WriteLine("Qualified?");
-            Console.ReadLine();
-            bool trueorfalse = true;
-            if (yourNumberInt > 15)
-                && (yourNumberInt <= 3);
-            {
-                && trueorfalse = true;
-            }
-            Console.WriteLine(trueorfalse.ToString());
-            Console.ReadLine();
+//            Console.WriteLine("Qualified?");
+//            Console.ReadLine();
+//            bool trueorfalse = true;
+//            if (yourNumberInt > 15)
+//                && (yourNumberInt <= 3);
+//            {
+//                && trueorfalse = true;
+//            }
+//            Console.WriteLine(trueorfalse.ToString());
+//            Console.ReadLine();
            
-        }
-    }
-}
+//        }
+//    }
+//}
 //Console.WriteLine("Type a number and we will tell you if it's greater than 50");
 //string yourNumberInt = Console.ReadLine();
 //bool trueorfalse = string yourNumberInt > 50;
 //Console.WriteLine(trueorfalse.ToString());
 //Console.ReadLine();
+
+
+            if (1 == 1)
+            {
+                Console.WriteLine("1 equals 1!");
+            }
+            else
+            {
+                Console.WriteLine("1 does not equal 1!");
+            }
