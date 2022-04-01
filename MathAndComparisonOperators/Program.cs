@@ -152,19 +152,53 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(false ^ false);
 
 
-            Console.WriteLine("What is your age?: ");
-            string yourNumberInt = Console.ReadLine();
-            bool trueorfalse = string yourNumberInt > 15;
-            Console.WriteLine(trueorfalse.ToString());
+            //Console.WriteLine("What is your age?: ");
+            //string yourNumberString = Console.ReadLine();
+            //int yourNumberint = Convert.ToInt32(yourNumberString);
+            //bool trueorfalse = false;
+            //if(yourNumberint > 15)
+            //{
+            //    trueorfalse = true;
+            //}
+            //Console.WriteLine(trueorfalse.ToString());
+            //Console.ReadLine();
+
+
+            Console.WriteLine("Have you ever had a DUI?: ");
+            bool trueorfalse = Console.ReadLine();
+            bool trueorfalse = true;
+            if(trueorfalse = true==true);
+            {
+                trueorfalse = false==false;
+            }
+            Console.WriteLine("You must not have any DUI's.");
             Console.ReadLine();
-            
-            //Console.WriteLine(true )
-            //Console.WriteLine("Have you ever had a DUI?");
+
             //string yourDUI = Console.ReadLine();
+
+
             //Console.WriteLine("How many speeding tickets do you have?: ");
             //string yourTickets = Console.ReadLine();
-
+            //int yourNumberint = Convert.ToInt32(yourTickets);
+            //bool trueorfalse = true;
+            //if(yourNumberint <=3)
+            //{
+            //    trueorfalse = false;
+            //}
+            //Console.WriteLine(trueorfalse.ToString());
             //Console.ReadLine();
+
+
+            Console.WriteLine("Qualified?");
+            Console.ReadLine();
+            bool trueorfalse = true;
+            if (yourNumberInt > 15)
+                && (yourNumberInt <= 3);
+            {
+                && trueorfalse = true;
+            }
+            Console.WriteLine(trueorfalse.ToString());
+            Console.ReadLine();
            
         }
     }
