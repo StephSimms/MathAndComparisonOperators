@@ -10,6 +10,7 @@ namespace MathAndComparisonOperators
     {
         static void Main(string[] args)
         {
+
             //int total = 5 + 10;
             //int otherTotal = 12 + 22;
             //int combined = total + otherTotal;
@@ -164,15 +165,15 @@ namespace MathAndComparisonOperators
             //Console.ReadLine();
 
 
-            Console.WriteLine("Have you ever had a DUI?: ");
-            bool trueorfalse = Console.ReadLine();
-            bool trueorfalse = true;
-            if(trueorfalse = true==true);
-            {
-                trueorfalse = false==false;
-            }
-            Console.WriteLine("You must not have any DUI's.");
-            Console.ReadLine();
+            //Console.WriteLine("Have you ever had a DUI?: ");
+            //bool trueorfalse = Console.ReadLine();
+            //bool trueorfalse = true;
+            //if(trueorfalse = true==true);
+            //{
+            //    trueorfalse = false==false;
+            //}
+            //Console.WriteLine("You must not have any DUI's.");
+            //Console.ReadLine();
 
             //string yourDUI = Console.ReadLine();
 
@@ -189,32 +190,152 @@ namespace MathAndComparisonOperators
             //Console.ReadLine();
 
 
-//            Console.WriteLine("Qualified?");
-//            Console.ReadLine();
-//            bool trueorfalse = true;
-//            if (yourNumberInt > 15)
-//                && (yourNumberInt <= 3);
-//            {
-//                && trueorfalse = true;
-//            }
-//            Console.WriteLine(trueorfalse.ToString());
-//            Console.ReadLine();
-           
-//        }
-//    }
-//}
-//Console.WriteLine("Type a number and we will tell you if it's greater than 50");
-//string yourNumberInt = Console.ReadLine();
-//bool trueorfalse = string yourNumberInt > 50;
-//Console.WriteLine(trueorfalse.ToString());
-//Console.ReadLine();
+            //            Console.WriteLine("Qualified?");
+            //            Console.ReadLine();
+            //            bool trueorfalse = true;
+            //            if (yourNumberInt > 15)
+            //                && (yourNumberInt <= 3);
+            //            {
+            //                && trueorfalse = true;
+            //            }
+            //            Console.WriteLine(trueorfalse.ToString());
+            //            Console.ReadLine();
+
+            //    if (1 == 1)
+            //{
+            //    Console.WriteLine("1 equals 1!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("1 does not equal 1!");
+
+            //}
+
+            //    Console.ReadLine();
+
+            //string name = "Brett";
+            //if (name == "Jesse")
+            //{
+            //    Console.WriteLine("Your name is Jesse");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Your name is not Jesse");
+            //}
+            //Console.ReadLine();
+
+            //string name = "Erik";
+            //if (name == "Jesse")
+            //{
+            //    Console.WriteLine("Your name is Jesse");
+            //}
+            //else if (name == "Brett")
+            //{
+            //    Console.WriteLine("Your name is not Jesse");
+            //}
+            //else if (name == "Adam")
+            //{
+            //    Console.WriteLine("Your name is Adam");
+            //}
+            //Console.ReadLine();
+
+            //if (1 != 1)
+            //{
+            //    Console.WriteLine("All is right in the universe.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("We live in a bizarro world.");
+            //}
+
+            //Console.ReadLine();
+
+            //int num1 = 19;
+            //int num2 = 12;
+            //if (num1 > num2)
+            //{
+            //    Console.WriteLine("The first number is larger.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The second number is larger.");
+            //}
+            //Console.ReadLine();
+
+            //int age = 10;
+            //if (age <= 25)
+            //{
+            //    Console.WriteLine("No you may not purchase that bottle of wine.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("There you go!");
+            //}
+            //Console.ReadLine();
+
+            //int num1 = 12;
+            //int num2 = 7;
+
+            //string result = num1 > num2 ? "num1 is greater than num2" : "num1 is not greater than num2";
+            //Console.WriteLine(result);
+            //Console.ReadLine();
 
 
-            if (1 == 1)
-            {
-                Console.WriteLine("1 equals 1!");
-            }
-            else
-            {
-                Console.WriteLine("1 does not equal 1!");
-            }
+
+
+
+        }
+    }
+}
+        //Console.WriteLine("Type a number and we will tell you if it's greater than 50");
+        //string yourNumberInt = Console.ReadLine();
+        //bool trueorfalse = string yourNumberInt > 50;
+        //Console.WriteLine(trueorfalse.ToString());
+        //Console.ReadLine();
+
+
+        //if (1 == 1)
+        //{
+        //    Console.WriteLine("1 equals 1!");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("1 does not equal 1!");
+        //}
+
+
+        //string name = "Adam";
+        //if (name == "Jesse")
+        //{
+        //    Console.WriteLine("Your name is Jesse");
+        //}
+        //else if (name == "Brett") ;
+        //{
+        //    Console.WriteLine("Your name is not Jesse");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Your name is not Jesse. Your name is not Brett");
+        //}
+
+
+        //if (1 == 1)
+        //{
+        //    Console.WriteLine("1 equals 1!");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("1 does not equal 1!");
+        //}
+        //{
+
+        //    if (1 == 1)
+        //    {
+        //        Console.WriteLine("1 equals 1!");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("1 does not equal 1!");
+        //    }
+        //}
+
