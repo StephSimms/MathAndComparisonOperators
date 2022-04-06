@@ -153,51 +153,34 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(false ^ false);
 
 
-            //Console.WriteLine("What is your age?: ");
-            //string yourNumberString = Console.ReadLine();
-            //int yourNumberint = Convert.ToInt32(yourNumberString);
-            //bool trueorfalse = false;
-            //if(yourNumberint > 15)
-            //{
-            //    trueorfalse = true;
-            //}
-            //Console.WriteLine(trueorfalse.ToString());
-            //Console.ReadLine();
+            Console.WriteLine("What is your age?: ");
+            string yourNumberString = Console.ReadLine();
+            int yourNumberint = Convert.ToInt32(yourNumberString);
+            bool trueorfalse = false;
+            if(yourNumberint > 15)
+            {
+               trueorfalse = true;
+            }
+            Console.WriteLine(trueorfalse.ToString());
+            Console.ReadLine();
 
 
-            //Console.WriteLine("Have you ever had a DUI?: ");
-            //bool trueorfalse = Console.ReadLine();
-            //bool trueorfalse = true;
-            //if(trueorfalse = true==true);
-            //{
-            //    trueorfalse = false==false;
-            //}
-            //Console.WriteLine("You must not have any DUI's.");
-            //Console.ReadLine();
+            Console.WriteLine("Have you ever had a DUI?: Please enter True or False. ");
+            bool yourDUI = Convert.ToBoolean(Console.ReadLine());
 
-            //string yourDUI = Console.ReadLine();
+            Console.WriteLine("How many speeding tickets do you have?: ");
+            int yourTickets = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Qualified?");
+            bool trueorfalse = true;
+            if (yourNumberInt > 15 && yourDUI = false && yourTickets <= 3); 
+            Console.WriteLine("You are Qualified!");
+            bool trueorfalse = false;
+            if (yourNumberInt < 15 && yourDUI = true && yourTickets > 3);
+            Console.WriteLine("You are NOT Qualified!");
+            Console.ReadLine();
 
-            //Console.WriteLine("How many speeding tickets do you have?: ");
-            //string yourTickets = Console.ReadLine();
-            //int yourNumberint = Convert.ToInt32(yourTickets);
-            //bool trueorfalse = true;
-            //if(yourNumberint <=3)
-            //{
-            //    trueorfalse = false;
-            //}
-            //Console.WriteLine(trueorfalse.ToString());
-            //Console.ReadLine();
-
-
-            //            Console.WriteLine("Qualified?");
-            //            Console.ReadLine();
-            //            bool trueorfalse = true;
-            //            if (yourNumberInt > 15)
-            //                && (yourNumberInt <= 3);
-            //            {
-            //                && trueorfalse = true;
-            //            }
+            //                
             //            Console.WriteLine(trueorfalse.ToString());
             //            Console.ReadLine();
 
