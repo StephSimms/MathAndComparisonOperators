@@ -172,12 +172,18 @@ namespace MathAndComparisonOperators
             int yourTickets = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Qualified?");
-            bool TrueorFalse = true;
-            if (yourNumberint > 15 && yourDUI = false && yourTickets <= 3); 
-            Console.WriteLine("You are Qualified!");
-            bool TrueorFalse = false;
-            if (yourNumberint < 15 && yourDUI = true && yourTickets > 3);
-            Console.WriteLine("You are NOT Qualified!");
+
+            if (yourNumberint > 15 && yourDUI = false && yourTickets <= 3)
+            {
+                bool TrueorFalse = true;
+                Console.WriteLine("You are Qualified!");
+            }
+
+            else if (yourNumberint < 15 && yourDUI = true && yourTickets > 3)
+            {
+                bool TrueorFalse = false;
+                Console.WriteLine("You are NOT Qualified!");
+            }
             Console.ReadLine();
 
             //                
