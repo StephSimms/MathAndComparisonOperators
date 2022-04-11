@@ -301,21 +301,20 @@ namespace MathAndComparisonOperators
             Console.ReadLine();
 
             int total = yourNumber + yourNumber1 + yourNumber2;
+            int dimension;
             if (total < 50)
             {
-                int dimension = yourNumber * yourNumber1 * yourNumber2;
+                dimension = yourNumber * yourNumber1 * yourNumber2;
                 int pricequote = (dimension * yourNumberint) / 100;
-            Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
+                Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
             }
-            else if (dimension > 50)
+            else if (dimension > 50) 
             {
                 Console.WriteLine("Package too big to be shipped via Package Express." + dimension);
             }
             Console.ReadLine();
 
-            int pricequote = (dimension) * (yourNumberint / 100);
-            Console.WriteLine("Your estimated total for shipping this package is:$       " + pricequote);
-            Console.ReadLine();
+            
 
             //Console.WriteLine("Type a number and we will divide it by 12.5");
             //string yourNumberString = Console.ReadLine();
