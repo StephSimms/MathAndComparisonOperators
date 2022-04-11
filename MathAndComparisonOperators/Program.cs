@@ -273,12 +273,12 @@ namespace MathAndComparisonOperators
             //Console.ReadLine();
 
             Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
-            
+
             Console.WriteLine("What is the weight of the package?");
-            
+
             string yourNumberString = Console.ReadLine();
             int yourNumberint = Convert.ToInt32(yourNumberString);
-            if(yourNumberint > 50)
+            if (yourNumberint > 50)
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
             }
@@ -286,7 +286,7 @@ namespace MathAndComparisonOperators
             {
                 Console.WriteLine("What is the package width?");
             }
-            
+
             Console.ReadLine();
 
             Console.WriteLine("What is the package width?");
@@ -303,11 +303,11 @@ namespace MathAndComparisonOperators
             int total = yourNumber + yourNumber1 + yourNumber2;
             if (total < 50)
             {
-
+                int dimension = yourNumber * yourNumber1 * yourNumber2;
+                int pricequote = (dimension * yourNumberint) / 100;
+            Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
             }
-            int dimension = yourNumber * yourNumber1 * yourNumber2;
-            dimension = Convert.ToInt32(Console.ReadLine());
-            if (dimension > 50)
+            else if (dimension > 50)
             {
                 Console.WriteLine("Package too big to be shipped via Package Express." + dimension);
             }
