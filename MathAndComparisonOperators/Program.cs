@@ -300,6 +300,11 @@ namespace MathAndComparisonOperators
 
             Console.ReadLine();
 
+            int total = yourNumber + yourNumber1 + yourNumber2;
+            if (total < 50)
+            {
+
+            }
             int dimension = yourNumber * yourNumber1 * yourNumber2;
             dimension = Convert.ToInt32(Console.ReadLine());
             if (dimension > 50)
@@ -308,7 +313,17 @@ namespace MathAndComparisonOperators
             }
             Console.ReadLine();
 
+            int pricequote = (dimension) * (yourNumberint / 100);
+            Console.WriteLine("Your estimated total for shipping this package is:$       " + pricequote);
+            Console.ReadLine();
 
+            //Console.WriteLine("Type a number and we will divide it by 12.5");
+            //string yourNumberString = Console.ReadLine();
+            //int yourNumberInt = Convert.ToInt32(yourNumberString);
+            //Console.WriteLine("Your number divided by 12.5 is: ");
+            //int quotient = (int)(yourNumberInt / 12.5);
+            //Console.WriteLine(quotient);
+            //Console.ReadLine();
 
         }
     }
