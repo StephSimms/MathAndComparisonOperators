@@ -282,11 +282,6 @@ namespace MathAndComparisonOperators
             {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
             }
-            else
-            {
-                Console.WriteLine("What is the package width?");
-            }
-
             Console.ReadLine();
 
             Console.WriteLine("What is the package width?");
@@ -308,9 +303,9 @@ namespace MathAndComparisonOperators
                 int pricequote = (dimension * yourNumberint) / 100;
                 Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
             }
-            else if (dimension > 50) 
+            else if (total > 50) 
             {
-                Console.WriteLine("Package too big to be shipped via Package Express." + dimension);
+                Console.WriteLine("Package too big to be shipped via Package Express." + total);
             }
             Console.ReadLine();
 
