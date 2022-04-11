@@ -153,38 +153,41 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(false ^ false);
 
 
-            Console.WriteLine("What is your age?: ");
-            string yourNumberString = Console.ReadLine();
-            int yourNumberint = Convert.ToInt32(yourNumberString);
-            bool trueorfalse = false;
-            if(yourNumberint > 15)
-            {
-               trueorfalse = true;
-            }
-            Console.WriteLine(trueorfalse.ToString());
-            Console.ReadLine();
+            //Console.WriteLine("What is your age?: ");
+            //string yourNumberString = Console.ReadLine();
+            //int yourNumberint = Convert.ToInt32(yourNumberString);
+            //bool trueorfalse = false;
+            //if(yourNumberint > 15)
+            //{
+            //   trueorfalse = true;
+            //}
+            //Console.WriteLine(trueorfalse.ToString());
+            //Console.ReadLine();
 
 
-            Console.WriteLine("Have you ever had a DUI?: Please enter True or False. ");
-            bool yourDUI = Convert.ToBoolean(Console.ReadLine());
+            //Console.WriteLine("Have you ever had a DUI?: Please enter True or False. ");
+            //bool yourDUI = Convert.ToBoolean(Console.ReadLine());
 
-            Console.WriteLine("How many speeding tickets do you have?: ");
-            int yourTickets = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("How many speeding tickets do you have?: ");
+            //int yourTickets = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Qualified?");
+            //Console.WriteLine("Qualified?");
 
-            if (yourNumberint > 15 && yourDUI == false && yourTickets <= 3)
-            {
-                bool TrueorFalse = true;
-                Console.WriteLine("You are Qualified!");
-            }
+            //if (yourNumberint > 15 && yourDUI == false && yourTickets <= 3)
+            //{
+            //    bool TrueorFalse = true;
+            //    Console.WriteLine("You are Qualified!");
+            //}
 
-            else if (yourNumberint < 15 && yourDUI == true && yourTickets > 3)
-            {
-                bool TrueorFalse = false;
-                Console.WriteLine("You are NOT Qualified!");
-            }
-            Console.ReadLine();
+            //else if (yourNumberint < 15 && yourDUI == true && yourTickets > 3)
+            //{
+            //    bool TrueorFalse = false;
+            //    Console.WriteLine("You are NOT Qualified!");
+            //}
+            //Console.ReadLine();
+
+
+
 
             //                
             //            Console.WriteLine(trueorfalse.ToString());
@@ -269,6 +272,22 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(result);
             //Console.ReadLine();
 
+            Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
+            
+            Console.WriteLine("What is the weight of the package?");
+            Console.ReadLine();
+            string yourNumberString = Console.ReadLine();
+            int yourNumberint = Convert.ToInt32(yourNumberString);
+            if(yourNumberint > 50)
+            {
+                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+            }
+            else
+            {
+                Console.WriteLine("What is the package width?");
+            }
+            
+            Console.ReadLine(); 
 
 
 
@@ -276,7 +295,7 @@ namespace MathAndComparisonOperators
         }
     }
 }
-        //Console.WriteLine("Type a number and we will tell you if it's greater than 50");
+        //Console.WriteLine("Type a number and we will tell you if it's greater than 50");;
         //string yourNumberInt = Console.ReadLine();
         //bool trueorfalse = string yourNumberInt > 50;
         //Console.WriteLine(trueorfalse.ToString());
