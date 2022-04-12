@@ -272,44 +272,149 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(result);
             //Console.ReadLine();
 
-            Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
+            //Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
 
-            Console.WriteLine("What is the weight of the package?");
+            //Console.WriteLine("What is the weight of the package?");
 
-            string yourNumberString = Console.ReadLine();
-            int yourNumberint = Convert.ToInt32(yourNumberString);
-            if (yourNumberint > 50)
-            {
-                Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
-            }
-            Console.ReadLine();
+            //string yourNumberString = Console.ReadLine();
+            //int yourNumberint = Convert.ToInt32(yourNumberString);
+            //if (yourNumberint > 50)
+            //{
+            //    Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+            //}
+            //Console.ReadLine();
 
-            Console.WriteLine("What is the package width?");
-            int yourNumber = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("What is the package width?");
+            //int yourNumber = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("What is the package height?");
-            int yourNumber1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("What is the package height?");
+            //int yourNumber1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("What is the package length?");
-            int yourNumber2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("What is the package length?");
+            //int yourNumber2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
-            int total = yourNumber + yourNumber1 + yourNumber2;
-            int dimension;
-            if (total < 50)
-            {
-                dimension = yourNumber * yourNumber1 * yourNumber2;
-                int pricequote = (dimension * yourNumberint) / 100;
-                Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
-            }
-            else if (total > 50) 
-            {
-                Console.WriteLine("Package too big to be shipped via Package Express." + total);
-            }
-            Console.ReadLine();
+            //int total = yourNumber + yourNumber1 + yourNumber2;
+            //int dimension;
+            //if (total < 50)
+            //{
+            //    dimension = yourNumber * yourNumber1 * yourNumber2;
+            //    int pricequote = (dimension * yourNumberint) / 100;
+            //    Console.WriteLine("Your estimated total for shipping this package is:$" + pricequote);
+            //}
+            //else if (total > 50) 
+            //{
+            //    Console.WriteLine("Package too big to be shipped via Package Express." + total);
+            //}
+            //Console.ReadLine();
 
-            
+
+            //int day = 2;
+            //switch (day)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Monday");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Tuesday");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Wednesday");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Thursday");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Friday");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Saturday");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Sunday");
+            //        break;
+            //}
+            //Console.ReadLine();
+
+
+            //Console.WriteLine("Guess how many candies are in the jar?");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //bool isGuessed = number == 55;
+
+            //while (!isGuessed)
+            //{
+
+            //    switch (number)
+            //    {
+            //        case 62:
+            //            Console.WriteLine("You guessed 62. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 29:
+            //            Console.WriteLine("You guessed 29. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 15:
+            //            Console.WriteLine("You guessed 15. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 55:
+            //            Console.WriteLine("You guessed the number 55. That is correct!");
+            //            isGuessed = true;
+            //            break;
+            //        default:
+            //            Console.WriteLine("You are wrong.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //    }
+            //}
+            //Console.Read();
+
+
+            //Console.WriteLine("Guess how many candies are in the jar?");
+            //int number = Convert.ToInt32(Console.ReadLine());
+            //bool isGuessed = number == 55;
+
+            //do
+            //{
+            //    switch (number)
+            //    {
+            //        case 62:
+            //            Console.WriteLine("You guessed 62. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 29:
+            //            Console.WriteLine("You guessed 29. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 15:
+            //            Console.WriteLine("You guessed 15. Try again.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //        case 55:
+            //            Console.WriteLine("You guessed the number 55. That is correct!");
+            //            isGuessed = true;
+            //            break;
+            //        default:
+            //            Console.WriteLine("You are wrong.");
+            //            Console.WriteLine("Guess a number?");
+            //            number = Convert.ToInt32(Console.ReadLine());
+            //            break;
+            //    }
+            //}
+
+            //while (!isGuessed);
+                     
+            //Console.Read();
+
 
             //Console.WriteLine("Type a number and we will divide it by 12.5");
             //string yourNumberString = Console.ReadLine();
