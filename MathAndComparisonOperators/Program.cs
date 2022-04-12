@@ -412,8 +412,38 @@ namespace MathAndComparisonOperators
             //}
 
             //while (!isGuessed);
-                     
+
             //Console.Read();
+
+
+
+            //string name = "Steph";
+            //string quote = "The man said, \"Hello\", Steph. \n Hello on a new line. \n \t Hello on a tab.";
+            //string fileName = "C\\Users\\Steph";
+            //bool trueOrFalse = name.Contains("S");
+            //trueOrFalse = name.EndsWith("s");
+
+            //int length = name.Length;
+
+            //name = name.ToUpper();
+
+
+            //Console.WriteLine(name);
+            //Console.ReadLine();
+
+            //string name = "Steph";
+            //name = "Stephanie";
+
+            StringBuilder sb = new StringBuilder();
+            sb.Append("My name is Steph");
+            sb.Append("I am 42 years old");
+
+
+            Console.WriteLine(sb);
+            Console.ReadLine();
+
+            
+
 
 
             //Console.WriteLine("Type a number and we will divide it by 12.5");
