@@ -417,30 +417,37 @@ namespace MathAndComparisonOperators
 
 
 
-            //string name = "Steph";
-            //string quote = "The man said, \"Hello\", Steph. \n Hello on a new line. \n \t Hello on a tab.";
-            //string fileName = "C\\Users\\Steph";
-            //bool trueOrFalse = name.Contains("S");
-            //trueOrFalse = name.EndsWith("s");
+            string name = "Steph";
+            string quote = "The man said, \"Hello\", Steph. \n Hello on a new line. \n \t Hello on a tab.";
+            string fileName = "C\\Users\\Steph";
+            bool trueOrFalse = name.Contains("S");
+            trueOrFalse = name.EndsWith("s");
 
-            //int length = name.Length;
+            int length = name.Length;
 
-            //name = name.ToUpper();
+            name = name.ToUpper();
 
 
-            //Console.WriteLine(name);
-            //Console.ReadLine();
+            Console.WriteLine(name);
+            Console.ReadLine();
 
-            //string name = "Steph";
-            //name = "Stephanie";
+            string name = "Steph";
+            name = "Stephanie";
 
             StringBuilder sb = new StringBuilder();
-            sb.Append("My name is Steph");
+            sb.Append("My name is Steph, ");
             sb.Append("I am 42 years old");
-
+            sb.Append(" and my dog's name is Lucky.");
 
             Console.WriteLine(sb);
             Console.ReadLine();
+
+            string firstName = "Steph";
+            string middleName = "Ann";
+            string lastName = "Simms";
+            string name = firstName + middleName + lastName;
+            Console.WriteLine(name);
+
 
             
 
